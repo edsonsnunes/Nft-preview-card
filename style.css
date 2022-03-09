@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    font-family: 'Outfit', sans-serif;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.telaCompleta {
+    width: 200px;
+    height: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    
+
+
+}
+
+
+.imagem>img {
+    border-radius: 4px;
+    width: 175px;
+
+
+}
+
+.imagem:hover{
+    opacity: 0.3;
+    filter:  hue-rotate(158deg) ;
+    cursor: pointer;
+    
+    
+}
+
+
+.paragrafo {
+    padding-left: 11px;
+    color: white;
+
+
+}
+
+.paragrafo>span {
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+
+.paragrafo>span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.paragrafo>p {
+    font-weight: 400;
+    font-size: 10px;
+    color: hsl(215, 51%, 70%);
+    padding-top: 10px;
+}
+
+.datas {
+    display: flex;
+    justify-content: space-around;
+    gap: 22px;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.datas>span {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 10px;
+}
+
+.tempo {
+    color: hsl(215, 51%, 70%);
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.rodape {
+    color: white;
+    display: flex;
+    gap: 5px;
+
+    align-items: center;
+    padding-left: 10px;
+    font-size: 8px;
+
+}
+
+.rodape>span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+
+}
+
+.rodape>img {
+    border: 0.5px solid white;
+    border-radius: 20px;
+
+}
+
+
+hr {
+    border: 0;
+    width: 167px;
+    padding: 6px;
+    margin-left: 13px;
+    border-top: 1px solid #2f4159;
+}
